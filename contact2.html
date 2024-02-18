@@ -1,0 +1,84 @@
+<div class="form">
+  <dl class="form__list">
+    <div class="form__field">
+      <dt class="form__label">
+        <label for="name">お名前<span class="form__required">*</span></label>
+      </dt>
+      <dd class="form__data"><input type="text" id="your-name" name="your-name" class="form__input" placeholder="【例】田中太郎" required></dd>
+    </div>
+    <div class="form__field">
+      <dt class="form__label"><label for="phone">電話番号</label></dt>
+      <dd class="form__data"><input type="tel" id="phone" name="phone" class="form__input" placeholder="【例】000-0000-0000"></dd>
+    </div>
+    <div class="form__field">
+      <dt class="form__label"><label for="email">メールアドレス<span class="form__required">*</span></label></dt>
+      <dd class="form__data"><input type="email" id="your-email" name="your-email" class="form__input" placeholder="【例】hoge@hogehoge.com" required></dd>
+    </div>
+    <div class="form__field">
+      <dt class="form__label">お問い合わせの種類<span class="form__required">*</span>（ドロップダウンメニュー式）</dt>
+      <dd class="form__data-select">
+        <select id="category" name="category" class="form__select" required>
+          <option value="">選択してください</option>
+          <option value="type1">種類1</option>
+          <option value="type2">種類2</option>
+          <option value="type3">種類3</option>
+        </select>
+      </dd>
+    </div>
+    <div class="form__field">
+      <dt class="form__label">お問い合わせの種類<span class="form__required">*</span>（ラジオボタン式）</dt>
+      <dd class="form__data-radio">
+        <span class="wpcf7-form-control-wrap" data-name="radio-category">
+          <span class="wpcf7-form-control wpcf7-radio form__radio" id="radio-test">
+            <span class="wpcf7-list-item first">
+              <label>
+                <input type="radio" name="radio-category" value="種類1" checked="checked">
+                <span class="wpcf7-list-item-label">種類1</span>
+              </label>
+            </span>
+            <span class="wpcf7-list-item">
+              <label>
+                <input type="radio" name="radio-test" value="種類2">
+                <span class="wpcf7-list-item-label">種類2</span>
+              </label>
+            </span>
+            <span class="wpcf7-list-item last">
+              <label>
+                <input type="radio" name="radio-test" value="種類3">
+                <span class="wpcf7-list-item-label">種類3</span>
+              </label>
+            </span>
+          </span>
+        </span>
+      </dd>
+    </div>
+    <div class="form__field">
+      <dt class="form__label"><label for="message">お問い合わせの内容<span class="form__required">*</span></label></dt>
+      <dd class="form__data"><textarea id="message" name="message" class="form__textarea" required></textarea></dd>
+    </div>
+    <div class="form__field">
+      <dt class="form__label">個人情報の取り扱いについて<span class="form__required">*</span></dt>
+      <dd class="form__data">
+	      <span class="wpcf7-form-control-wrap" data-name="privacy">
+          <span class="wpcf7-form-control wpcf7-acceptance">
+            <span class="wpcf7-list-item">
+              <label>
+                <input type="checkbox" name="privacy" class="form__checkbox" id="privacy">
+                <span class="wpcf7-list-item-label">同意します
+                </span>
+              </label>
+            </span>
+          </span>
+        </span>
+	    </dd>
+    </div>
+  </dl>
+  <div class="form__acceptance">
+    <p class="form__acceptance-text">
+      【個人情報の取り扱い】<br>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。
+    </p>
+  </div>
+  <div class="form__submit-button">
+    <input class="form__submit-input" type="submit" value="確認画面へ">
+  </div>
+</div>
